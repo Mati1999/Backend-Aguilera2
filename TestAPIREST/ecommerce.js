@@ -2,6 +2,10 @@ class Ecommerce {
 
     static carrito = [];
 
+    getProds() {
+        return Ecommerce.carrito
+    }
+
     addProd(prod) {
         Ecommerce.carrito.push(prod);
         return Ecommerce.carrito
