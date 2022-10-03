@@ -31,7 +31,7 @@ class Ecommerce {
     }
 
     deleteProd(id) {
-        Ecommerce.carrito = Ecommerce.carrito.filter(prod => prod.id != id)
+        Ecommerce.carrito = Ecommerce.carrito.filter(prod => prod.id != id.id)
         return Ecommerce.carrito
     }
 }
