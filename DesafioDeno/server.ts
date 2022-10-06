@@ -15,10 +15,10 @@ rutas.get('/', (ctx) => {
         <input type="text" name="color" placeHolder="agregar un color"/>
         <input type="submit" value="agregar color"/>
       </form>
-      <div style="background-color:black">
-        <h2 style="color:white">Colores</h2>
+      <div style="background-color:blue">
+        <h3 style="color:white">Colores</h3>
         <ul>
-          ${colores.map((c) => `<li style="color:${c}">${c}</li>`)}
+          ${colores.map((color) => `<li style="color:${color}">${color}</li>`)}
         </ul>
       </div>
     </body>
